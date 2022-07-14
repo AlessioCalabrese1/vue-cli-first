@@ -1,16 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <FirstTitle />
+    <FirstTitle/>
+    <HeroJumbotron />
   </div>
 </template>
 
 <script>
+import HeroJumbotron from './components/HeroJumbotron.vue'
 import FirstTitle from './components/FirstTitle.vue'
 
 export default {
   name: 'App',
   components: {
+    HeroJumbotron,
     FirstTitle
 }
 }
